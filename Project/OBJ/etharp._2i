@@ -1,0 +1,7 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\Common -I..\Main -I..\Startup_config -I..\STM32F4_FWLIB\inc -I..\USER\LCD -I..\USER\LED -I..\USER\usart1 -I..\USER\KEY -I..\USER\DP83848 -I..\USER\LWIP_APP -I..\STM32F4x7_ETH_Driver\inc -I..\USER\usart -I..\USER\CMD_HANDLE -I..\USER\IWDG -I..\USER\STMFLASH -I..\USER\rtc -I..\USER\tracking -I..\USER\auto_pid -I..\ptpd-2.0.0\src -I..\ptpd-2.0.0\src\dep -I..\lwip-1.3.1\port -I..\lwip-1.3.1\src\include\lwip -I..\lwip-1.3.1\src\include\ipv4 -I..\lwip-1.3.1\src\include -I..\lwip-1.3.1\src\include\netif
+-I C:\Users\User\Desktop\F407_PTP\Project\RTE
+-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-I d:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -D__FPU_PRESENT
+-o .\obj\etharp.o --omf_browse .\obj\etharp.crf --depend .\obj\etharp.d --feedback ".\OBJ\LWIP.fed" "..\lwip-1.3.1\src\netif\etharp.c"
